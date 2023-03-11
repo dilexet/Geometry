@@ -1,8 +1,11 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometry.PresentationLayer", "Geometry.PresentationLayer\Geometry.PresentationLayer.csproj", "{A3C5A92B-8FC2-4249-A55E-809467DF51B8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometry.BusinessLogicLayer", "Geometry.BusinessLogicLayer\Geometry.BusinessLogicLayer.csproj", "{C53CEAF4-3C2B-4B79-8907-133055D64DD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometry.UnitTest", "Geometry.UnitTest\Geometry.UnitTest.csproj", "{84F9E58E-14F5-417B-83E4-50BCF833B914}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
