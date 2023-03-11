@@ -37,6 +37,7 @@ namespace Geometry.BusinessLogicLayer.Implementation
             {
                 throw new NegativeNumberException("Radius cannot be negative");
             }
+
             _radius = radius;
         }
 
@@ -46,6 +47,16 @@ namespace Geometry.BusinessLogicLayer.Implementation
         protected override double CalculateArea()
         {
             return Math.PI * Radius * Radius;
+        }
+
+
+        /// <summary>
+        /// Display info about circle
+        /// </summary>
+        public override void DisplayInfo()
+        {
+            Console.WriteLine(
+                $"\nThe area of a circle with a radius of {Radius} is {Square}\n");
         }
     }
 }

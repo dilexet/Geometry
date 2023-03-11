@@ -6,7 +6,7 @@ namespace Geometry.BusinessLogicLayer
     {
         private Lazy<double> _square;
 
-        /// <summary>
+        /// <summary>s
         /// Figure area
         /// </summary>
         public double Square
@@ -24,5 +24,10 @@ namespace Geometry.BusinessLogicLayer
         /// Calculate the area of a figure
         /// </summary>
         protected abstract double CalculateArea();
+
+        /// <summary>
+        /// Display info about figure
+        /// </summary>
+        public abstract void DisplayInfo();
     }
 }

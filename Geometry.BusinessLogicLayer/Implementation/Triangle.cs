@@ -130,6 +130,23 @@ namespace Geometry.BusinessLogicLayer.Implementation
         }
 
         /// <summary>
+        /// Display info about triangle
+        /// </summary>
+        public override void DisplayInfo()
+        {
+            Console.WriteLine(
+                $"\nThe area of a triangle with sides {SideA}, {SideB}, {SideC} is {Square}\n");
+            if (IsRightTriangle)
+            {
+                Console.WriteLine($"The triangle is right\n");
+            }
+            else
+            {
+                Console.WriteLine($"The triangle is not right\n");
+            }
+        }
+
+        /// <summary>
         /// Checking if a triangle can exist
         /// </summary>
         /// <returns></returns>
